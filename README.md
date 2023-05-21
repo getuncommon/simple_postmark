@@ -1,6 +1,6 @@
 # simple_postmark [![Build Status](https://travis-ci.org/haihappen/simple_postmark.png)](https://travis-ci.org/haihappen/simple_postmark)
 
-simple_postmark makes it easy to send mails via [Postmark](http://postmarkapp.com)™ using Rails's ActionMailer.
+simple_postmark makes it easy to send mails via [Postmark](https://postmarkapp.com)™ using Rails's ActionMailer.
 
 ## Table of Contents
 
@@ -49,7 +49,7 @@ class NotificationMailer < ActionMailer::Base
 end
 ```
 
-And of course you can use standard attachment calls and [Postmark's tags](http://developer.postmarkapp.com/developer-build.html#message-format):
+And of course you can use standard attachment calls and [Postmark's tags](https://developer.postmarkapp.com/developer-build.html#message-format):
 
 ```ruby
 class NotificationMailer < ActionMailer::Base

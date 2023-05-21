@@ -9,7 +9,7 @@ class SimplePostmarkTest < MiniTest::Unit::TestCase
   def test_makes_request
     WebMock.enable!
 
-    url = 'http://api.postmarkapp.com/email'
+    url = 'https://api.postmarkapp.com/email'
 
     mail = Mail.new do
       from     'barney@himym.tld'

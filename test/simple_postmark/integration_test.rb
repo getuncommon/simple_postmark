@@ -2,7 +2,7 @@ require_relative '../test_helper'
 
 
 class IntegrationTest < MiniTest::Unit::TestCase
-  URL = 'http://api.postmarkapp.com/email'
+  URL = 'https://api.postmarkapp.com/email'
   API_KEY = '********-****-****-****-************'
 
   HEADERS = {

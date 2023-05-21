@@ -2,7 +2,7 @@ module Mail
   class SimplePostmark < Struct.new(:settings)
     include HTTParty
 
-    base_uri 'http://api.postmarkapp.com'
+    base_uri 'https://api.postmarkapp.com'
     headers 'Accept' => 'application/json', 'ContentType' => 'application/json'
     delegate :post, :headers, to: self
 
